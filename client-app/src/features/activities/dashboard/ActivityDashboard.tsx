@@ -9,7 +9,7 @@ interface Props {
 export default function ActivityDashboard({activities}: Props){
     return(
         <Grid>
-            <Grid.Column width='10'>
+          <Grid.Column width='10'>
             <List>
                {activities.map(activity => 
                (
@@ -18,8 +18,7 @@ export default function ActivityDashboard({activities}: Props){
                   </List.Item>
                ))}
             </List>
-
-            </Grid.Column>
+          </Grid.Column>
         </Grid>
     )
 }
